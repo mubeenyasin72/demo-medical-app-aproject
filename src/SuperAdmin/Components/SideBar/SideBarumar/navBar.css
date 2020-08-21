@@ -1,0 +1,135 @@
+.height-container {
+  background-color: #404e67;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.height-container::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+.height-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #404e67;
+  border-radius: 20px;
+}
+
+/* Handle */
+.height-container::-webkit-scrollbar-thumb {
+  background: #707a8c;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.height-container::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+.titletext {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  margin: 15px 0 0 0;
+}
+.optionText {
+  color: #ffffff;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+  float: left;
+  margin: 3px 0 0 10px;
+  line-height: 35px;
+}
+
+.optionStyle {
+  width: 95%;
+  cursor: pointer;
+  height: 40px;
+}
+.optionSelectedBackground {
+  background-color: #3c9c9c;
+  border: 1px solid #404e67;
+  border-radius: 3px;
+}
+.optionAdminExpandStyle {
+  width: 95%;
+  height: 190px;
+}
+.pointer {
+  cursor: pointer;
+}
+/* .subOptionDot {
+  background-color: #ffffff;
+  float: left;
+  margin: 10px 0 0 10px;
+} */
+.subOptionText {
+  color: #ffffff;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+  float: left;
+  margin: -2px 0 0 10px;
+  line-height: 35px;
+}
+/* Important Taskfs */
+.subOptionSelectedContainer {
+  width: 85%;
+  height: 30px;
+  border-radius: 3px;
+  margin: 5px 0 0 15px;
+  background-color: #3c989a;
+}
+.optionArrowIcon {
+  width: 10px;
+  height: 10px;
+  float: right;
+  margin: 15px 10px 0 10px;
+}
+.optionSelectedBackgroundInvoice {
+  background-color: #404e67;
+  border: 1px solid #404e67;
+  border-radius: 3px;
+}
+.optionSelectedBackgroundEmployee {
+  background-color: #404e67;
+  border: 1px solid #404e67;
+  border-radius: 3px;
+}
+.optionAdminExpandStyleEmployee {
+  width: 95%;
+  height: 70px;
+}
+.optionSelectedBackgroundVender {
+  background-color: #404e67;
+  border: 1px solid #404e67;
+  border-radius: 3px;
+}
+.optionAdminExpandStyleVender {
+  width: 95%;
+  height: 70px;
+}
+.optionSelectedBackgroundInvoiceStock {
+  background-color: #404e67;
+  border: 1px solid #404e67;
+  border-radius: 3px;
+}
+.optionAdminExpandStyleStock {
+  width: 95%;
+  height: 150px;
+}
+.optionSelectedBackgroundCompany {
+  background-color: #404e67;
+  border: 1px solid #404e67;
+  border-radius: 3px;
+}
+.optionAdminExpandStyleCompany {
+  width: 95%;
+  height: 70px;
+}
+.optionIcon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 10px 0 0 10px;
+}

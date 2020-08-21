@@ -1,0 +1,31 @@
+.sidebarContainer{
+    float: left;
+    width: 22%;
+    /* color: blue; */
+}
+.sidebarContainerClose{
+    width: 0;
+    /* color: chartreuse; */
+}
+.headerAndBodyContainer{
+    color: crimson;
+}
+.headerAndBodyContainerClose{
+    margin-left: 270px;
+    /* color: gold; */
+    transition: all 700ms;
+}
+/* @media only screen and (max-width: 1300px){
+.headerAndBodyContainer{
+    width: 78%;
+}
+}
+@media only screen and (max-width: 1300px){
+.headerAndBodyContainer{
+        width: 78%;
+    }
+    } */
+    #example2 {
+        box-shadow: 0 8px 8px -8px gray;
+        /* box-shadow: 3px 8px #45C203; */
+      }

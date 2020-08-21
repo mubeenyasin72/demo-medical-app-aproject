@@ -1,0 +1,25 @@
+@media only screen and (max-width: 990px) {
+    .footer-btn {
+        width:100%;
+    }
+  }
+  @media only screen and (max-width: 766px) {
+    .footer-btn {
+        width:50%;
+    }
+  }
+  @media only screen and (max-width: 1058px) {
+    .footer-btn123 {
+        margin-left:50px;
+    }
+  }
+  @media only screen and (min-width: 990px) {
+    .footer-btn {
+        display:flex;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .footer-btn {
+        margin:auto;
+    }
+  }

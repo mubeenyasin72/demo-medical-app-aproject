@@ -1,0 +1,103 @@
+
+.txt1:focus {
+	outline: none !important;
+}
+
+.txt1:hover {
+	text-decoration: none;
+  color: #57b846;
+}
+.txt1 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #999999;
+  }
+.form-control-12 {
+	outline: none;
+	border: none;
+}
+.btn-login-2{
+    width: 200px;
+    background-color: #45C203 !important;
+    color: White !important;
+}
+.btn-login-2:hover{
+    text-decoration: none !important;
+    background-color: gray !important;
+}
+.btn-login-2:focus{
+    box-shadow: none !important;
+}
+.w-100 {
+    position: relative;
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+.w-100 .content {
+    position: absolute; 
+    bottom: auto; 
+    margin-top: 13%;
+    background: rgb(54,84,99,0.7);
+    background: rgba(54,84,99,0.7); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: auto;
+  }
+  .form-control-12{
+    width: 100% !important;
+    padding: 12px !important;
+    display: inline-block !important;
+    border: none !important;
+    border-bottom: 1px solid #45C203 !important;
+    border-radius: 0px !important;
+    box-sizing: border-box !important;
+  }
+  .form-control-12:focus{
+      box-shadow: none !important;
+  }
+  .input-checkbox100 {
+    display: none !important;
+  }
+  .label-checkbox100 {
+    font-family: Poppins-Regular !important;
+    font-size: 15px  !important;
+    color: #999999  !important;
+    line-height: 1.4  !important;
+  
+    display: block  !important;
+    position: relative  !important;
+    padding-left: 26px  !important;
+    cursor: pointer  !important;
+  }
+  .label-checkbox100::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: transparent;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .input-checkbox100:checked + .label-checkbox100::before {
+    color: #57b846 !important;
+  }

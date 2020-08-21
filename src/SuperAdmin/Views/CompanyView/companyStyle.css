@@ -1,0 +1,44 @@
+.sidebarContainerd {
+  width: 20%;
+  float: left;
+}
+.dashboard-body {
+  overflow-x: hidden;
+}
+.headerAndBodyContainerd {
+  width: 80%;
+  float: left;
+}
+.sidebarContainerClosed {
+  width: 0;
+  display: none;
+}
+.headerAndBodyContainerClosed {
+  width: 100%;
+}
+.bodyViewScrolld {
+  overflow-y: scroll;
+  height: 90vh;
+  background-color: #060c18;
+}
+.infoContainerd {
+  display: flex;
+  flex-wrap: wrap;
+}
+.infoBoxd {
+  width: 300px;
+  height: 200px;
+  margin: 0 30px 0 0;
+}
+.headerAndBodyContainerClosed {
+  width: 100%;
+}
+.bodyViewScrolld {
+  overflow-y: scroll;
+  height: 90vh;
+  background-color: #ffffff;
+}
+.headerAndBodyContainerd {
+  width: 80%;
+  float: left;
+}

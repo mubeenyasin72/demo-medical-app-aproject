@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1200px) {
+    .box-dashboard {
+        margin-right: 100px;
+
+    }
+  }
+  @media only screen and (max-width: 1158px) {
+    .box-dashboard {
+        font-size: 10px;
+    }
+    .box-dashboard h6{
+        font-size: 10px;
+    } 
+  }
+  @media only screen and (max-width: 985px) {
+    .box-dashboard {
+        font-size: 8px;
+    }
+    .box-dashboard h6{
+        font-size: 8px;
+    } 
+  }
+  @media only screen and (max-width: 939px) {
+    .box-dashboard {
+        font-size: 6px;
+    }
+    .box-dashboard h6{
+        font-size: 6px;
+    } 
+  }
+  @media only screen and (max-width: 979px) {
+    .box-dashboard {
+        margin-right: 100px;
+
+    }
+    
+   
+  }

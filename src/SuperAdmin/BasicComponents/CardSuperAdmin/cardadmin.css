@@ -1,0 +1,7 @@
+#box{
+    width: 50em;
+    height: 15em;
+    margin: 5em 30em 40em;
+    background-color: transparent;
+    box-shadow: 0 0 10px #000;
+}
